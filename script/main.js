@@ -267,10 +267,11 @@ const animationTimeline = () => {
     yesBtn.addEventListener("click", () => {
       document.getElementById("imagePath").src = "https://media.tenor.com/gUiu1zyxfzYAAAAi/bear-kiss-bear-kisses.gif";
       animationTimeline2();
+      document.getElementsByClassName("wish-hbd")[0].innerHTML = "I LOVE YOU SM BABY";
+      document.getElementsById("wishText").innerHTML = "THANKS AND I'm sorry for taking so long to ask";
       yesBtn.addEventListener("click", () => {});
       noBtnBtn.addEventListener("click", () => {});
-      document.getElementsByClassName("wish-hbd")[0].innerHTML = "I LOVE YOU SM BABY";
-    document.getElementsById("wishText").innerHTML = "THANKS AND I'm sorry for taking so long to ask";
+      
     });
 
     const getNoButtonText = (noCount) => {
