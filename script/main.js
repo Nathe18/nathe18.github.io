@@ -269,6 +269,8 @@ const animationTimeline = () => {
       animationTimeline2();
       yesBtn.addEventListener("click", () => {});
       noBtnBtn.addEventListener("click", () => {});
+      document.getElementsByClassName("wish-hbd")[0].innerHTML = "I LOVE YOU SM BABY";
+    document.getElementsById("wishText").innerHTML = "THANKS AND I'm sorry for taking so long to ask";
     });
 
     const getNoButtonText = (noCount) => {
